@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  jekyll:
+    container_name: jekyll-chirpy5.6.1-git
+    # Use my own custom image
+    image: linkarzu/jekyll:4.3.2
+    restart: unless-stopped
+    # `bundle install` will ensure that the dependencies specified
+    # in the Gemfile are installed in the container when it is run.
+    command: sh -c "bundle install --jobs 4 --retry 3 && jekyll serve --host 0.0.0.0 --watch --force_polling --verbose --livereload"
+    ports:
+      - 4005:4000
+      - 35729:35729
+    volumes:
+      - .:/myapp

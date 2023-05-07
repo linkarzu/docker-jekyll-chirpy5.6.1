@@ -3,9 +3,8 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-# Only change this if you haven't set up a CNAME but the page is already published in github pages
+# Only change this to '/repository-name' if your site has already been published to github pages
+# and doesn't have a custom domain, mine was configured to "/docker-jekyll-chirpy5.6.1"
 # if you have a CNAME configured, leave it blank
 baseurl: #"/docker-jekyll-chirpy5.6.1"
 
@@ -28,6 +27,7 @@ description: >- # used by seo meta and the atom feed
   Personal blog in wihch I post about technical related topics I like to explore
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+# Configure this ONLY if you already have your cname, I set mine to url: "https://linkarzu.com"
 url: "https://linkarzu.com"
 
 github:

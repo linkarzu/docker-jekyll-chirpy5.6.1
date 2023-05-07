@@ -28,8 +28,7 @@ description: >- # used by seo meta and the atom feed
   Personal blog in wihch I post about technical related topics I like to explore
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-# Personally, I never updated this and it worked properly, 
-url: #"https://linkarzu.github.io"
+url: "linkarzu.com"
 
 github:
   username: linkarzu # change to your github username

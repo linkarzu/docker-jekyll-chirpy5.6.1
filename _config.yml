@@ -28,7 +28,7 @@ description: >- # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 # Configure this ONLY if you already have your cname, I set mine to url: "https://linkarzu.com"
-url: "https://linkarzu.com"
+url: #"https://linkarzu.com"
 
 github:
   username: linkarzu # change to your github username

@@ -11,7 +11,7 @@ I've come across many blogs in the past in which I find the answers I was lookin
 I'm not that active on social media, but reach out via Linkedin if you want to network.
 
 ## A bit about me
-- My journey in the IT world started when I decided to get my CCNA back in 2018, but then I realized that networking is just a small part of the landscape, so I've been trying to catch up to new technologies ever since.
+- My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I've been trying to catch up to new technologies ever since.
 - I adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
 - I love taking notes, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. 
     - I used to manage my notes in Google Docs but it's too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my private GitHub repo.

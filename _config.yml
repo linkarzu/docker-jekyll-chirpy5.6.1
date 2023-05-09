@@ -21,7 +21,7 @@ timezone: UTC
 
 title: Christian Arzu # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: Personal blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Personal blog in which I post about technical related topics I like to explore

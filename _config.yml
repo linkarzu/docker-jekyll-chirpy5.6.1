@@ -24,7 +24,7 @@ title: Christian Arzu # the main title
 tagline: My personal blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Personal blog in wihch I post about technical related topics I like to explore
+  Personal blog in which I post about technical related topics I like to explore
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 # Configure this ONLY if you already have your cname, I set mine to url: "https://linkarzu.com"

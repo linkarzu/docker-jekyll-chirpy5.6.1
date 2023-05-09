@@ -151,4 +151,6 @@ This is useful if you open a file with Vim, and need to search for a specific wo
     - `:h` - a shortcut that does the same thing
 - `:q` - quit the help menu
 
+---
 
+This is by no means a complete Vim guide, as more advanced topics are not covered. But I think it's enough to get you started and interested in your journey to continue learning about Vim.

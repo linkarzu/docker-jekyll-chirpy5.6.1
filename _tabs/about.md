@@ -10,6 +10,9 @@ I've come across many blogs in the past in which I find the answers I was lookin
 
 I'm not that active on social media, but reach out via Linkedin if you want to network.
 
+> You can also subscribe to my RSS feed if you'd like to find out what I'm up to.
+{: .prompt-info }
+
 ## A bit about me
 - My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I've been trying to catch up to new technologies ever since.
 - I adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.

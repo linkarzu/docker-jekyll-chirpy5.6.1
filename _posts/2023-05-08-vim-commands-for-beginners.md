@@ -48,11 +48,6 @@ To enter insert mode there are several options, here are some useful ones:
 You normally enter command mode when you need to enter Vim commands.
 - `:` - takes you to "line" mode when you're in normal mode 
 
-## Undo, redo, repeat
-- `u` - undo (press multiple times to keep undoing)
-- `ctrl-r` - redo (press multiple times to keep redoing)
-- `.` - repeats the last entered command, and leaves you in command mode
-
 ## Quit and save
 Quitting Vim is one of the common challenges people face when meeting Vim for the first time.
 - `ZZ` - (shift-Z-Z) write and quit (notice the Z's are uppercase)
@@ -90,6 +85,11 @@ In Vim, instead of navigating with the arrow keys (which you also can, but not r
 - `G` - go to the end of the file
 	- `:$` -  go to the end of the file
 	- `11G` - go to line 11
+
+## Undo, redo, repeat
+- `u` - undo (press multiple times to keep undoing)
+- `ctrl-r` - redo (press multiple times to keep redoing)
+- `.` - repeats the last entered command, and leaves you in command mode
 
 ## Delete text
 - `x` - deletes the character the cursor is on (leave pressed, same as **supr**)
@@ -139,10 +139,10 @@ Text copied to the registry(clipboard) stays there until replaced with something
 
 ## Search, find replace
 This is useful if you open a file with Vim, and need to search for a specific word
-- `/and[enter]` - searches **forward** for the word "and"
+- `/unicorn[enter]` - searches **forward** for the word "unicorn"
 	- `n` - keep searching the same word **forward**
 	- `N` - keep searching the same word **backward**
-- `?and[enter]` - searches **backward** for the word **and**
+- `?unicorn[enter]` - searches **backward** for the word "unicorn"
 	- `n` - keep searching the same word **backward**
 	- `N` - keep searching the same word **forward**
 

@@ -1,5 +1,5 @@
 ---
-title: VIM commands for beginners
+title: Vim commands for beginners
 date: 2023-05-09 18:50:00 +0000
 categories: [Editors]
 tags: [vim, Linux, CLI, tutorial, ssh]

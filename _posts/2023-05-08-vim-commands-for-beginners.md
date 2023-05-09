@@ -7,7 +7,7 @@ tags: [vim, Linux, CLI, tutorial, ssh]
 
 I was once there all excited, following my network tutorial and doing my `vim /etc/network/interfaces` to try to assign a static IP on my host, and suddenly got trapped somewhere, not knowing what it was, how to save or get out. 
 
-So I decided to switch to nano (I know, the Vim cult is gonna hate this) and forget about that traumatic experience. But Nano wasn't cutting it for me, I wanted to feel like an expert and do all those nice magic tricks people do in Vim, so decided to "learn" Vim. 
+So I decided to switch to nano (I know, the Vim cult is gonna hate this) and forget about that traumatic experience. But nano wasn't cutting it for me, I wanted to feel like an expert and do all those nice magic tricks people do in Vim, so decided to "learn" Vim. 
 
 We've been on the ring quite a few times, and I keep getting knocked out when I don't remember how do to the basic stuff, like searching, copying, pasting, etc. So I'm creating this guide to remember basic useful commands that a beginner needs to know when working with Vim.
 
@@ -138,7 +138,7 @@ Text copied to the registry(clipboard) stays there until replaced with something
     - `3J` - joins 3 lines together
 
 ## Search, find replace
-This is really useful if you open a file with Vim, and need to search for a specific word
+This is useful if you open a file with Vim, and need to search for a specific word
 - `/and[enter]` - searches **forward** for the word "and"
 	- `n` - keep searching the same word **forward**
 	- `N` - keep searching the same word **backward**

@@ -3,9 +3,16 @@ title: Vim commands for beginners
 date: 2023-05-09 18:50:00 +0000
 categories: [Editors]
 tags: [vim, Linux, CLI, tutorial, ssh]
+image:
+  path: /daqwsgmx6/image/upload/c_mfit,h_630,w_1200/v1683742199/blog/vim-tutorial_xdxvlf.png
+  alt: #image alternative text
 ---
 
-I was once there all excited, following my network tutorial and doing my `vim /etc/network/interfaces` to try to assign a static IP on my host, and suddenly got trapped somewhere, not knowing what it was, how to save or get out. 
+I was once there all excited, following my network tutorial and doing my 
+```bash
+vim /etc/network/interfaces
+``` 
+to try to assign a static IP on my host, and suddenly got trapped somewhere, not knowing what it was, or how to save or get out. 
 
 So I decided to switch to nano (I know, the Vim cult is gonna hate this) and forget about that traumatic experience. But nano wasn't cutting it for me, I wanted to feel like an expert and do all those nice magic tricks people do in Vim, so decided to "learn" Vim. 
 
@@ -52,7 +59,7 @@ You normally enter command mode when you need to enter Vim commands.
 Quitting Vim is one of the common challenges people face when meeting Vim for the first time.
 - `ZZ` - (shift-Z-Z) write and quit (notice the Z's are uppercase)
     - `:wq` - write and quit
-- `ZQ` - (shift-Z-Q)quit without saving changes (uppercase too)
+- `ZQ` - (shift-Z-Q) quit without saving changes (uppercase too)
 	- `:q!` - quit without saving changes
 - `:q` - quit If you haven’t made any changes
 - `:w` - save without quitting
@@ -97,7 +104,7 @@ In Vim, instead of navigating with the arrow keys (which you also can, but not r
 - `dw` - delete word starting **from** and including cursor position (stops at symbols)
 	- `dW` - does the same thing but it stops at space
 	- `5dw` - deletes 5 words
-	- `d5w` - same thing, but easier to remember (delete 3 words)
+	- `d5w` - same thing, but easier to remember (delete 5 words)
 - `dB` - deletes backward a word (stops at spaces) 
 	- `db` - deletes to the beginning of the previous word (stops at symbols)
 - `d^` - deletes to the beginning of the line starting at the cursor

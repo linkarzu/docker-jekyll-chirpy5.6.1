@@ -59,11 +59,11 @@ You normally enter command mode when you need to enter Vim commands.
 ## Quit and save
 Quitting Vim is one of the common challenges people face when meeting Vim for the first time. The most commonly used is `:wq` but notice that I also mention that there is another way of quitting Vim with `ZZ` or `ZQ`
 - `:wq` - write and quit
-	- `ZZ` - Also write and quit (shift-Z-Z) (notice the Z's are uppercase)
-	- Alternate way of quitting Vim
+	- `ZZ` - also write and quit (shift-Z-Z, notice the Z's are uppercase)
+	- an alternate way of quitting Vim
 - `:q!` - quit without saving changes
-	- `ZQ` - Also quit without saving changes (shift-Z-Q) (uppercase too)
-	- Other way of quitting Vim
+	- `ZQ` - also quit without saving changes (shift-Z-Q, uppercase too)
+	- other way of quitting Vim
 - `:q` - quit If you haven’t made any changes
 - `:w` - save without quitting
 

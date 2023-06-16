@@ -11,24 +11,26 @@ tags: [bash, zsh, terminal, macos, linux, cli]
 
 # Overview
 
-Starship is a shell customization tool that allows you to see:
+Starship is a shell customization tool that enables you to see:
 - When you're inside a GitHub Repo, if you have pending changes, etc.
 - When you're inside a Python directory.
 - When you're logged in to a specific Google Cloud account if using the gcloud CLI.
 - And a lot more
 
-This guide will help you if you don't want to go through multiple youtube videos that recommend different tools that seem confusing and complicated
-
 I tried Oh My Zsh, on macOS but since it installs different themes and plugins, there was a 5-second delay every time I opened a new shell, which I hated. Probably it was a misconfiguration error on my side, but I don't care, I just uninstalled it and decided to go with Starship. If I need more plugins in the future, I'll just install them myself.
 
 # Installation
 
-This guide will show the steps to install Starship in `Linux` and `macOS`, but it can be installed in many different OSs, the installation instructions can be found on the [main page](https://starship.rs){:target="_blank"}.
+This guide will show the steps to install Starship in `Linux` and `macOS`, but it can be installed in many different OSs, the installation instructions can be found on their [main page](https://starship.rs){:target="_blank"}.
 - It can also be installed through package managers, instructions for that are on their page
 
-You'll need to know what type of shell you're using
+&emsp;
+&emsp;
+
+First, you'll need to know what type of shell you're using
 - As you can tell below, on this host, I'm using `bash`, and it's running `Debian`
 - If you're using a different shell, go to their page for instructions
+
 ```bash
 echo $SHELL
 ```
@@ -44,21 +46,32 @@ krishna@docker1:~$ echo $SHELL
 ## Install on Linux using bash
 
 Install the latest version
+
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
 
+&emsp;
+&emsp;
+
 Add `eval "$(starship init bash)"` to the end of your `~/.bashrc`
 - The following command will append it to the end of the file
+
 ```bash
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 ```
+
+&emsp;
+&emsp;
 
 You can confirm it was added
 
 ```bash
 tail -n 2 ~/.bashrc
 ```
+
+&emsp;
+&emsp;
 
 Apply the changes to your shell for the changes to take effect
 
@@ -69,16 +82,24 @@ source ~/.bashrc
 ## Install on macOS using Zsh
 
 Install the latest version
+
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
 
+&emsp;
+&emsp;
+
 Add `eval "$(starship init zsh)"` to the end of your `~/.zshrc` file
 - **My .zshrc file didn't exist so I had to create it first**
 - Once the file is created the following command will append it to the end of the file
+
 ```bash
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 ```
+
+&emsp;
+&emsp;
 
 You can confirm it was added
 
@@ -86,7 +107,11 @@ You can confirm it was added
 tail -n 2 ~/.zshrc
 ```
 
+&emsp;
+&emsp;
+
 Apply the changes to your shell for the changes to take effect
+
 ```bash
 source ~/.zshrc
 ```
@@ -96,34 +121,48 @@ If you want to customize your prompt, all the changes by default need to be appl
 
 I have my config stored on GitHub, to use it in all my different hosts and keep consistency, so I'll clone the repo inside the `~/github` directory and I will point Starship to that config file.
 - With the commands below you'll create the `github` directory and clone the repo
+
 ```bash
 cd && mkdir -p github && cd github
 git clone https://github.com/linkarzu/starship-config.git && cd
 ```
 
+&emsp;
+&emsp;
+
 If you want your prompt to look like mine, do the following after cloning my GitHub repo:
 
 If you're using `~/.bashrc`
+
 ```bash
 echo "export STARSHIP_CONFIG=~/github/starship-config/starship.toml" >> ~/.bashrc
 ```
 
 If you're using `~/.zshrc`
+
 ```bash
 echo "export STARSHIP_CONFIG=~/github/starship-config/starship.toml" >> ~/.zshrc
 ```
 
+&emsp;
+&emsp;
+
 Don't forget to apply the changes to your shell for the changes to take effect
 
 If you're using Bash
+
 ```bash
 source ~/.bashrc
 ```
 
 If you're using Zsh
+
 ```bash
 source ~/.zshrc
 ```
+
+&emsp;
+&emsp;
 
 If you followed all the steps, your config should look something like the one on the image at the top of the page
 - Shows you the full path, if you're on a GitHub repo and what branch, and if there are pending changes

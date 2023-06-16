@@ -9,7 +9,7 @@ categories: [Shell]
 tags: [bash, zsh, terminal, macos, linux, cli]
 ---
 
-# Overview
+## Overview
 
 Starship is a shell customization tool that enables you to see:
 - When you're inside a GitHub Repo, if you have pending changes, etc.
@@ -19,7 +19,7 @@ Starship is a shell customization tool that enables you to see:
 
 I tried Oh My Zsh, on macOS but since it installs different themes and plugins, there was a 5-second delay every time I opened a new shell, which I hated. Probably it was a misconfiguration error on my side, but I don't care, I just uninstalled it and decided to go with Starship. If I need more plugins in the future, I'll just install them myself.
 
-# Installation
+## Installation
 
 This guide will show the steps to install Starship in `Linux` and `macOS`, but it can be installed in many different OSs, the installation instructions can be found on their [main page](https://starship.rs){:target="_blank"}.
 - It can also be installed through package managers, instructions for that are on their page
@@ -43,7 +43,7 @@ krishna@docker1:~$ echo $SHELL
 > Since Starship directly modifies the shell prompt, it doesn't matter which terminal emulator you use, it can be the default one, iTerm2, etc.
 {: .prompt-tip }
 
-## Install on Linux using bash
+### Install on Linux using bash
 
 Install the latest version
 
@@ -79,7 +79,7 @@ Apply the changes to your shell for the changes to take effect
 source ~/.bashrc
 ```
 
-## Install on macOS using Zsh
+### Install on macOS using Zsh
 
 Install the latest version
 
@@ -116,7 +116,7 @@ Apply the changes to your shell for the changes to take effect
 source ~/.zshrc
 ```
 
-# Change default config file (OPTIONAL)
+## Change default config file (OPTIONAL)
 If you want to customize your prompt, all the changes by default need to be applied in the `~/.config/starship.toml` file 
 
 I have my config stored on GitHub, to use it in all my different hosts and keep consistency, so I'll clone the repo inside the `~/github` directory and I will point Starship to that config file.
@@ -167,7 +167,7 @@ source ~/.zshrc
 If you followed all the steps, your config should look something like the one on the image at the top of the page
 - Shows you the full path, if you're on a GitHub repo and what branch, and if there are pending changes
 
-# Customize your config
+## Customize your config
 If you want to customize your prompt, all you need to do is apply the changes to the `starship.toml` file, you don't even need to source `.bashrc` or `.zshrc`, once you save the changes, they'll be applied to the prompt automatically
 
 All of the different configuration options and themes can be found on the [official page](https://starship.rs/config/){:target="_blank"}

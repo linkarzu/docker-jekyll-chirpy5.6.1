@@ -6,7 +6,7 @@ image:
   alt: #image alternative text
 date: 2023-06-07 19:43:00 +0000
 categories: [Docker]
-tags: [docker, Linux, tutorial, script]
+tags: [docker, linux, tutorial, script]
 ---
 
 Up until a few weeks ago, every time I needed to install docker on a new Linux server, I'd go to the [official documentation page](https://docs.docker.com/engine/install/){:target="_blank"} and follow the steps for my specific distro, which is usually Debian. There are several installation methods, and I'd normally go with the `apt repository` one. 

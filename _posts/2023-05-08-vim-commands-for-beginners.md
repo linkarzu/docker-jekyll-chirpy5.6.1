@@ -4,9 +4,9 @@ description: Vim tutorial that describes the different modes, useful navigation,
 image:
   path: /daqwsgmx6/image/upload/c_mfit,h_630,w_1200/v1683742199/blog/vim-tutorial_xdxvlf.png
   alt: #image alternative text
-date: 2023-05-09 18:50:00 +0000
+date: 2023-05-08 18:50:00 +0000
 categories: [Editors]
-tags: [vim, Linux, CLI, tutorial, ssh]
+tags: [vim, linux, cli, tutorial, ssh]
 ---
 
 I was once there all excited, following my network tutorial and doing my 

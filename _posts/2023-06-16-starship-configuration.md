@@ -116,10 +116,63 @@ Apply the changes to your shell for the changes to take effect
 source ~/.zshrc
 ```
 
-## Change default config file (OPTIONAL)
-If you want to customize your prompt, all the changes by default need to be applied in the `~/.config/starship.toml` file 
+## Customize your config
 
-I have my config stored on GitHub, to use it in all my different hosts and keep consistency, so I'll clone the repo inside the `~/github` directory and I will point Starship to that config file.
+If you want to customize your prompt, all the changes by default need to be applied in the `~/.config/starship.toml` file, you don't even need to source `.bashrc` or `.zshrc`, once you save the changes, they'll be applied to the prompt automatically.
+
+> Instead of `manually` applying the config changes, I like to clone the config from my GitHub repo, and point Starship to that cloned config. You would find this useful in case you want to have your config in a GitHub repo, clone it to a new machine, and if needed, push the changes back to the repo to keep everything in sync. All you'd need to do is a Git `pull` in all your other devices. This is just a matter of preference and is discussed in the next section, so you can skip to that section if needed.
+{: .prompt-info }
+
+&emsp;
+&emsp;
+
+**If you want your shell prompt to look like mine (image shown on top):**
+
+First, create the `starship.` `toml` file
+
+```bash
+mkdir -p ~/.config && touch ~/.config/starship.toml
+```
+
+&emsp;
+&emsp;
+
+Then apply my configuration (as of Jun 2023)
+- Just copy and paste the command below
+- This file can also be found in my [github repo](https://raw.githubusercontent.com/linkarzu/starship-config/master/starship.toml){:target="_blank"} (the file may change as I apply new changes)
+
+```bash
+cat <<'EOT' >> ~/.config/starship.toml
+# vim ~/.config/starship.toml
+
+[character]
+success_symbol = '[\$](bold green)'
+
+[username]
+style_user = '#a6aaf1 bold'
+style_root = 'white bold'
+format = '[$user]($style)'
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = '[@](white bold)[$hostname](#50fa7b bold)'
+disabled = false
+
+[directory]
+style = '#00a5ff bold'
+truncation_length = 0
+truncate_to_repo = false
+EOT
+```
+
+> All of the different configuration options and themes can be found on the [official page](https://starship.rs/config/){:target="_blank"}
+{: .prompt-tip }
+
+
+## Change default config file (OPTIONAL)
+I have my config stored on GitHub because I like to use the same config in all different hosts, so I clone the repo inside the `~/github` directory and then point Starship to that config file. This is useful in case you want to have your config in a GitHub repo, clone it to a new machine, and if needed, push the changes back to the repo to keep everything in sync. All you'd need to do is a Git `pull` in all your other devices.
 - With the commands below you'll create the `github` directory and clone the repo
 
 ```bash
@@ -130,7 +183,7 @@ git clone https://github.com/linkarzu/starship-config.git && cd
 &emsp;
 &emsp;
 
-If you want your prompt to look like mine, do the following after cloning my GitHub repo:
+To point Starship to the newly cloned repo:
 
 If you're using `~/.bashrc`
 
@@ -167,7 +220,3 @@ source ~/.zshrc
 If you followed all the steps, your config should look something like the one on the image at the top of the page
 - Shows you the full path, if you're on a GitHub repo and what branch, and if there are pending changes
 
-## Customize your config
-If you want to customize your prompt, all you need to do is apply the changes to the `starship.toml` file, you don't even need to source `.bashrc` or `.zshrc`, once you save the changes, they'll be applied to the prompt automatically
-
-All of the different configuration options and themes can be found on the [official page](https://starship.rs/config/){:target="_blank"}

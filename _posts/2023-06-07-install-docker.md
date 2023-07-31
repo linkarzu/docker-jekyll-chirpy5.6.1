@@ -3,7 +3,7 @@ title: Install docker using the convenience script
 description: Article that describes how to install docker on a Linux machine using a script instead of the usual manual process
 image:
   path: /daqwsgmx6/image/upload/c_mfit,h_630,w_1200/v1683742199/blog/convenience-script.png
-  alt: #image alternative text
+  alt: docker convenience script
 date: 2023-06-07 19:43:00 +0000
 categories: [Docker]
 tags: [docker, linux, tutorial, script]

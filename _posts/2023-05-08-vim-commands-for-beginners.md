@@ -3,7 +3,7 @@ title: Vim commands for beginners
 description: Vim tutorial that describes the different modes, useful navigation, undo, redo, delete, cut, copy, paste, change, replace, join, search, other ways of quitting Vim, Vimtutor, and the tip to install the Vim VS code extension.
 image:
   path: /daqwsgmx6/image/upload/c_mfit,h_630,w_1200/v1683742199/blog/vim-tutorial_xdxvlf.png
-  alt: #image alternative text
+  alt: vim tutorial
 date: 2023-05-08 18:50:00 +0000
 categories: [Editors]
 tags: [vim, linux, cli, tutorial, ssh]

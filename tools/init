@@ -17,7 +17,7 @@ _no_gh=false
 help() {
   echo "Usage:"
   echo
-  echo "   bash /path/to/init.sh [options]"
+  echo "   bash /path/to/init [options]"
   echo
   echo "Options:"
   echo "     --no-gh              Do not deploy to Github."
@@ -103,7 +103,7 @@ init_files() {
   npm i && npm run build
 
   # track the js output
-  _sedi "/^assets.*\/dist/d" .gitignore
+  _sedi "/^assets.*\/dist/d;/^sw.*\.js/d" .gitignore
 }
 
 commit() {

@@ -3,20 +3,12 @@
 - type: github
   icon: "fab fa-github"
 
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/christianarzu' # Fill with your Linkedin homepage
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
 
-- type: credly
-  icon: 'fas fa-certificate' #I updated the icon version in _sass/base.scss to v6.4.0
-  url: 'https://www.credly.com/users/chrisjosuearzu/badges'
-
-# - type: twitter
-#   icon: "fab fa-twitter"
-
-# - type: email
-#   icon: "fas fa-envelope"
-#   noblank: true # open link in current tab
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"
@@ -26,6 +18,10 @@
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#
+# - type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
